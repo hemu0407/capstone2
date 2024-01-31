@@ -1,0 +1,158 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+
+
+.header{
+    display: flex;
+    background-color:#e4f9f5 ;
+    color: #66bfbf;
+    font-size: 1.8rem;
+    width: 100vw;
+    height: 50rem;
+    font-family:"Merriweather", serif;
+    justify-content: center;
+    align-items: center;
+    
+}
+.intro{
+    padding-right: 25rem;
+}
+.profile{
+    text-align: center;
+
+}
+.profile-img{
+    border-radius: 50%;
+    height: 300px;
+    padding-bottom: 3rem;
+}
+.container-one{
+    height: 35rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skills{
+    border: 0.09rem solid black;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    width: 20rem;
+    height: 20rem;
+
+}
+.skills > h2 {
+    border-bottom: 0.09rem solid black;
+    text-align: center;
+    color: #66bfbf;
+}
+.skills ul{
+    padding-left: 3rem;
+    font-size: 1.4rem;
+    padding-top: 2.5rem;
+}
+.skills li{
+    padding: 0.4rem;
+}
+hr {
+    border: dotted #eaf6f6 0.5rem;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.container-two{
+    text-align: center;
+}
+.container-two h1{
+    color: #66bfbf;
+    margin-bottom: 2.5rem;
+
+}
+
+button{
+ background-color: #66bfbf;
+ font-size: 1.5rem;
+ margin-top: 2.3rem;
+ padding: 0.5rem;
+ border-radius: 0.5rem;
+ border: none;
+ color: white;
+ text-decoration: none;
+}
+.footer{
+    text-align: center;
+    height: 14rem;
+    background-color: #e4f9f5;
+   padding-top: 4rem;
+}
+footer a {
+    margin-right: 3rem;
+    text-decoration: none;
+    color: #66bfbf;
+}
+footer p {
+    padding-top: 2rem;
+}
+footer img{
+    border-radius: 50%;
+    margin: 3rem 0rem 0rem 0rem;
+    height: 3rem;
+}
+@media  (max-width:500px){
+    body{
+        width: 100vw;
+    }
+    .header{
+        height: 400px;
+        width: 100vw;
+        font-size: 0.9rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro{
+        padding-right: 1rem;
+    }
+    .profile-img{
+        height: 100px;
+        padding-bottom: 1rem;
+    }
+    .container-one{
+        display: block;
+        padding: 5rem 5rem 0rem 5rem;
+    }
+    .skills{
+        height: 15rem;
+        width: 15rem;
+        margin-top: 2rem;
+    }
+    .skills h2{
+        font-size: 2rem;
+    }
+    .skills ul{
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+    }
+    .container-two{
+        font-size: 0.9rem;
+    }
+    .container-two button{
+        font-size: 1rem;
+    }
+    .footer-img{
+       display: flex;
+       height: 3rem;
+       justify-content: center;
+       align-items: center;
+    }
+    .footer img{
+        height: 2rem;
+        
+    }
+    .footer{
+        height: 10rem;
+    }
+    
+}
